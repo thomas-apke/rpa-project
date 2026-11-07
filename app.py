@@ -142,7 +142,6 @@ def send_email(invoice_num, name, email, date, directory):
 
     mail_server.send_message(message)
     mail_server.quit()
-send_email(8515, name ='Thomas Holt', email = 'thomas.apke@gmail.com', date = '11/13/2023', directory = directory)
 
 filenames = os.listdir(directory)
 invoice_num = 8515
